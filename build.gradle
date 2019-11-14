@@ -22,10 +22,10 @@ allprojects {
             url 'file:///D:/Projects/Repository/Star'
         }*/
 
-        maven {
+        /*maven {
             // url 'https://raw.githubusercontent.com/googol113/Stars/master'
             url 'https://github.com/googol113/Stars/raw/master'
-        }
+        }*/
 
         maven {
             // url 'https://raw.githubusercontent.com/googol113/Library/master'
@@ -34,10 +34,10 @@ allprojects {
 
         maven {
             url 'http://localhost:8081/repository/maven-releases/'
-            credentials {
+            /*credentials {
                 username 'admin'
                 password 'googol'
-            }
+            }*/
         }
     }
 }
